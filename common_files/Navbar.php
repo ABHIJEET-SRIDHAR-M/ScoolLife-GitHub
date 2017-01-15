@@ -15,15 +15,18 @@
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#"><span class="glyphicon glyphicon-home">&nbsp </span>Home</a></li>
+		
+		<!--  Removing The dropdown menu (Benefits).(Added this in Home Page.)
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-list">&nbsp </span> Benefits <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="#"><span class="glyphicon glyphicon-gift">&nbsp </span>To Students</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-calendar">&nbsp </span>To Schools</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-shopping-cart">&nbsp </span>To Parents</a></li>
-          </ul>
+			<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-list">&nbsp </span> Benefits <span class="caret"></span></a>
+			<ul class="dropdown-menu">
+				<li><a href="#"><span class="glyphicon glyphicon-gift">&nbsp </span>To Students</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-calendar">&nbsp </span>To Schools</a></li>
+				<li><a href="#"><span class="glyphicon glyphicon-shopping-cart">&nbsp </span>To Parents</a></li>
+			</ul>
         </li>
-        <li><a href="#"><span class="glyphicon glyphicon-education">&nbsp </span>School Portal </a></li>
+		-->
+        <li><a href="#"><span class="glyphicon glyphicon-education">&nbsp </span>School Zone </a></li>
         <li><a href="#"><span class="glyphicon glyphicon-eye-open">&nbsp </span> Parents Portal </a></li>
 		
 		<li>&nbsp &nbsp <button class="btn btn-danger navbar-btn"><span class="glyphicon glyphicon-phone-alt"> </span> &nbsp We're Hiring</button></li>
