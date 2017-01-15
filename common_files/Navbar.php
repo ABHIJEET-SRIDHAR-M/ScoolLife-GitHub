@@ -7,12 +7,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
+	  
 	  <!-- Image pixels - 150 horizontal and 50 vertical-->
-	  <a href="#" class="pull-left"><img src="../images/logo.png"></a>
+	  <a href="#" class="pull-left"><img src="images/logo.png"></a>
       &nbsp &nbsp &nbsp
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
+      <ul class="nav navbar-nav navbar-right">
         <li class="active"><a href="#"><span class="glyphicon glyphicon-home">&nbsp </span>Home</a></li>
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-th-list">&nbsp </span> Benefits <span class="caret"></span></a>
@@ -26,6 +27,7 @@
         <li><a href="#"><span class="glyphicon glyphicon-eye-open">&nbsp </span> Parents Portal </a></li>
 		
 		<li>&nbsp &nbsp <button class="btn btn-danger navbar-btn"><span class="glyphicon glyphicon-phone-alt"> </span> &nbsp We're Hiring</button></li>
+		
       </ul>
 		<!-- This is for right hand side navbar if required 
 	  <ul class="nav navbar-nav navbar-right">

@@ -4,12 +4,25 @@ li+li { border-left: 2px solid #C0C0C8 }
 	font-weight: bold;
 }
 /*The above is for bolding the text in active*/
+
 .glyphicon.glyphicon-education {
     font-size: 16px;
 }
 /*The above is for increasing the size of the education (graduation hat) glyhicon icon*/
+
+
+
 .navbar-default {
-  background-color: #1728f9;
+  /*background-color: #1728f9;*/
+  
+  /*Navbar gradient code */
+	 background: rgb(59,103,158); /* Old browsers */
+	 background: -moz-linear-gradient(top, rgba(59,103,158,1) 0%, rgba(43,136,217,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+	 background: -webkit-linear-gradient(top, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	 background: linear-gradient(to bottom, rgba(59,103,158,1) 0%,rgba(43,136,217,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+
+/* -------- */
   border-color: #addbf9;
 }
 .navbar-default .navbar-brand {

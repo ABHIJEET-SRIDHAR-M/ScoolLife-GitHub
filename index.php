@@ -4,13 +4,15 @@
 		<title> Welcome to ScoolLife </title>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta charset="utf-8">
-			<!-- CSS Links -->
 			
+			<!-- CSS Links -->
+
+			<!-- Bootstrap Css Link -->
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+
 			<!---Navbar Css -->
 			<link rel="stylesheet" type="text/css" href="css/navbarCssStyling.css">
   
-			<!-- Bootstrap Css Link -->
-			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
 			
 	</head>
 	<body>
