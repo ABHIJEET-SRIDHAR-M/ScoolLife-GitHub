@@ -1,12 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <title>Bootstrap Case</title>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="navbarCssStyling.css">
-  
-</head>
-<body>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -46,6 +37,3 @@
     </div>
   </div>
 </nav>
-
-</body>
-</html>
