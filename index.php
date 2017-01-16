@@ -22,7 +22,6 @@
 	<?php include 'common_files/Navbar.php' ?> 
 	</div>
 
-
 	<!-- Java Script Links -->
 	<script src="bootstrap/jquery/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
