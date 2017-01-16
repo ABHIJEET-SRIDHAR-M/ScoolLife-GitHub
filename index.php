@@ -1,17 +1,24 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title> Welcome to ScoolLife </title>
-			<meta name="viewport" content="width=device-width, initial-scale=1">
 			<meta charset="utf-8">
-			
-			<!-- CSS Links -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
 
+			<title> Welcome to ScoolLife </title>
+	
+			<!-- CSS Links -->
+			<!-- Css Reset -->
+			<link rel="stylesheet" type="text/css" href="css/cssreset.css">
 			<!-- Bootstrap Css Link -->
 			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
 
-			<!---Navbar Css -->
-			<link rel="stylesheet" type="text/css" href="css/navbarCssStyling.css">
+			<!-- font-awesome link -->
+			<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+			
+			<!---Custom Css Links -->
+			<!-- link rel="stylesheet" type="text/css" href="css/navbarCssStyling.css" -->
+			<link rel="stylesheet" type="text/css" href="css/footer_styles.css">
   
 			
 	</head>
@@ -22,7 +29,7 @@
 	<?php include 'common_files/Navbar.php' ?> 
 	</div>
 
-
+	<?php include 'common_files/footer_mainpage_inc.php' ?> 
 	<!-- Java Script Links -->
 	<script src="bootstrap/jquery/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
