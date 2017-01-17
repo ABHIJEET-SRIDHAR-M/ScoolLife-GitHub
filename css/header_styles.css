@@ -1,6 +1,6 @@
 .header {
 	position: relative;
-	background-color: #f8f8f8;
+	background-color: #2e6da4;
 	border-color: #e7e7e7;
 	min-height:100px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
@@ -8,7 +8,7 @@
 
 .header-logo{
 	position:absolute;
-	left:130px;
+	left:100px;
 }
 .header-logo:after {
     content: "";
@@ -52,7 +52,7 @@
 
 .header .down-navbar{
 position: absolute;
-left:570px;
+left:550px;
 top:115px;
 }
 
