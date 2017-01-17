@@ -1,0 +1,80 @@
+.header {
+	position: relative;
+	background-color: #f8f8f8;
+	border-color: #e7e7e7;
+	min-height:90px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+}
+
+.header-logo{
+	position:absolute;
+	left:130px;
+	top:10px;
+}
+
+.header .rightblock{
+	float:right;
+	padding-right:50px;
+	padding-top:20px;
+}
+.header form input{
+	margin-right:10px;
+}
+
+.header .separator{
+	display: inline-block;
+    padding-left: 10px;
+    padding-right: 15px;
+    border-right: #53b5b5;
+    border-right-style: groove;
+    border-right-width: thin;
+}
+
+.header .rightblock .last{
+	border-right-style: none; 
+}
+
+.header .down-navbar{
+position: absolute;
+left:650px;
+top:120px;
+}
+
+.header .down-navbar ul{
+    margin: 0;
+    padding: 0;
+	line-height: 2em;
+	display:inline-block;
+	font-size:13px;
+}
+
+.header .down-navbar ul:first-child{
+    margin: 0;
+    padding: 0;
+	line-height: 2em;
+	border-right: beige;
+	border-right-style: ridge;
+	border-right-width: medium;
+	font-size:15px;
+}
+
+.header .down-navbar li{
+	display: inline;
+	margin-right: 8px;
+	font-weight:bold;
+}
+
+.header .down-navbar a{
+	padding: 5px;
+}
+
+.header .down-navbar a:hover{
+	background-color: #656565;
+	text-decoration:none;
+	color: #FFF;
+	padding: 5px;
+	border-radius: 10px 10px 10px 10px;
+}
+.header .down-navbar li:before { 
+   content: "\25BA \0020";
+}

@@ -17,19 +17,20 @@
 			<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
 			
 			<!---Custom Css Links -->
-			<!-- link rel="stylesheet" type="text/css" href="css/navbarCssStyling.css" -->
+			<link rel="stylesheet" type="text/css" href="css/mainpage_styles.css">
+			<link rel="stylesheet" type="text/css" href="css/header_styles.css">
 			<link rel="stylesheet" type="text/css" href="css/footer_styles.css">
   
 			
 	</head>
 	<body>
+	<div class = "body_wrap">
+		<!-- Header -->
+		<?php include 'common_files/header_big_inc.php' ?> 
 
-	<!-- Nav Bar -->
-	<div>
-	<?php include 'common_files/Navbar.php' ?> 
 	</div>
-
-	<?php include 'common_files/footer_mainpage_inc.php' ?> 
+	<!-- Footer -->
+	<?php include 'common_files/footer_big_inc.php' ?> 
 	<!-- Java Script Links -->
 	<script src="bootstrap/jquery/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>

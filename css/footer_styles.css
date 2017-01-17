@@ -12,12 +12,12 @@
 .footer {
 	margin-top:20px;
 	background: #EDEFF1;
-	height: auto;
 	padding-bottom: 30px;
 	position: relative;
 	width: 100%;
 	border-bottom: 1px solid #CCCCCC;
 	border-top: 1px solid #DDDDDD;
+	height:250px;
 }
 .footer_block{
 	width:16.667%;
