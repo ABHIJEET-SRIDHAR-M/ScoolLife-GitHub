@@ -19,7 +19,7 @@
 			</div>
 			
 			<div class = "separator last">
-			<button class="btn btn-primary" name="new_user_submit">New User</button>
+			<button class="btn btn-default" name="new_user_submit">New User ?</button>
 			</div>
 		</div>
 		
