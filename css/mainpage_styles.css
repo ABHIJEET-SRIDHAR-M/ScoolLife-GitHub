@@ -1,0 +1,12 @@
+html,body{
+	height:100%;
+}
+
+.body_wrap{
+	min-height:100%;
+	margin-bottom:-350px;
+}
+.body_wrap:after {
+  content: "";
+  display: block;
+}
