@@ -11,10 +11,11 @@ html,body{
   display: block;
 }
 .main_body{
-	width:1150px;
-	postion:relative;
+	width:90%;
+	position:relative;
 	margin:auto;
-	margin-top:75px;
+	margin-top:60px;
 	background-color:#FFF;
-	height:500px;
+	height:100%;
+	
 }

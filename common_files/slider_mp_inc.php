@@ -1,39 +1,57 @@
-    <div id="myCarousel" class="carousel slide slider" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>   
-        <!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <h2>Slide 1</h2>
-                <div class="carousel-caption">
-                  <h3>First slide label</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur…</p>
-                </div>
-            </div>
-            <div class="item">
-                <h2>Slide 2</h2>
-                <div class="carousel-caption">
-                  <h3>Second slide label</h3>
-                  <p>Aliquam sit amet gravida nibh, facilisis gravida…</p>
-                </div>
-            </div>
-            <div class="item">
-                <h2>Slide 3</h2>
-                <div class="carousel-caption">
-                  <h3>Third slide label</h3>
-                  <p>Praesent commodo cursus magna vel…</p>
-                </div>
-            </div>
+
+<div class="container">
+  <br>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+
+      <div class="item active">
+        <img src="images/img_chania.jpg"> <!-- Include Image 1 here -->
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
         </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
+      </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Chania</h3>
+          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="carousel-caption">
+          <h3>Flowers</h3>
+          <p>Beatiful flowers in Kolymbari, Crete.</p>
+        </div>
+      </div>
+  
     </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
