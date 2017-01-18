@@ -9,12 +9,9 @@
 .header-logo{
 	position:absolute;
 	left:100px;
-	top:100px;
-	border-radius: 50px 50px 10px 10px;
-	-moz-border-radius: 50px 50px 10px 10px;
-	-webkit-border-radius: 50px 50px 10px 10px;
-	border: 2px solid #2e6da4;
+	top:10px;
 }
+
 .header-logo:after {
     content: "";
     width: 400px;
@@ -34,7 +31,6 @@
 	border-radius: 50px 50px 10px 10px;
 	-moz-border-radius: 50px 50px 10px 10px;
 	-webkit-border-radius: 50px 50px 10px 10px;
-	border: 2px solid #2e6da4;
 }
 
 .header .rightblock{
