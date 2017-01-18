@@ -1,7 +1,7 @@
 <div class="header">
 		<div class="header-logo">
 			<a href="#">
-				<img src="images/logo2.jpg">
+				<img src="images/logo.jpg">
 			</a>
 		</div>
 		

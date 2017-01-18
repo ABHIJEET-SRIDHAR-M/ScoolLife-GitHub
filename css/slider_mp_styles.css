@@ -1,0 +1,16 @@
+.slider{
+	position:relative;
+	width:800px;
+	height:250px;
+	background:#9ab6e0;
+}
+.carousel-control.left, .carousel-control.right{
+	background-image: linear-gradient(to right,rgba(254, 244, 244, 0.5) 0,rgba(0,0,0,.0001) 100%);
+}
+.carousel-control.right{
+	background-image: linear-gradient(to right,rgb(154, 182, 224) 0,rgba(0,0,0,.0001) 100%);
+}
+.carousel-control{
+	width:10%;
+	color: #e03c3c;
+}

@@ -1,7 +1,7 @@
 html,body{
 	height:100%;
+	background: #f6f8f9;
 }
-
 .body_wrap{
 	min-height:100%;
 	margin-bottom:-350px;
@@ -9,4 +9,12 @@ html,body{
 .body_wrap:after {
   content: "";
   display: block;
+}
+.main_body{
+	width:1150px;
+	postion:relative;
+	margin:auto;
+	margin-top:75px;
+	background-color:#FFF;
+	height:500px;
 }
