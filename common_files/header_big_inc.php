@@ -28,7 +28,7 @@
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Pay Fees</a></li>
 				<li><a href="#">Buy Online</a></li>
-				<li><a href="#">Student Corner</a></li>
+				<li><a href="#">Student's Corner</a></li>
 			</ul>
 			<ul style = "margin-left:15px;">
 				<li><a href="#">About Us</a></li>
