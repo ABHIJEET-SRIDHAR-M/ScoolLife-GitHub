@@ -59,6 +59,7 @@
 .header .down-navbar{
 position: absolute;
 left:550px;
+top:125px;
 }
 
 .header .down-navbar ul{
