@@ -22,6 +22,7 @@
       </div>
 
       <div class="item">
+        <img src="images/img_chania2.jpg"> <!-- Include Image 2 here -->
         <div class="carousel-caption">
           <h3>Chania</h3>
           <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
@@ -29,6 +30,7 @@
       </div>
     
       <div class="item">
+        <img src="images/img_flower.jpg"> <!-- Include Image 3 here -->
         <div class="carousel-caption">
           <h3>Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
@@ -36,6 +38,7 @@
       </div>
 
       <div class="item">
+        <img src="images/img_flower2.jpg"> <!-- Include Image 4 here -->
         <div class="carousel-caption">
           <h3>Flowers</h3>
           <p>Beatiful flowers in Kolymbari, Crete.</p>
