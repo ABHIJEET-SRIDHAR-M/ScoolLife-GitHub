@@ -3,18 +3,18 @@
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="item active">
-        <div class = "main_slide_wrap">
-			<div class = "custom_col" style = "margin-left:25px;">
-			
+		<div class="item active">
+			<div class = "main_slide_wrap">
+				<div class = "custom_col" style = "margin-left:25px;">
+				<img src = "images/pay_fees_online.jpg">
+				</div>
+				<div class = "custom_col">
+				
+				</div>
+				<div class = "custom_col">
+				
+				</div>
 			</div>
-			<div class = "custom_col">
-			
-			</div>
-			<div class = "custom_col">
-			
-			</div>
-		</div>
 		</div>
       <div class="item">
         <img src="images/img_chania2.jpg"> <!-- Include Image 2 here -->

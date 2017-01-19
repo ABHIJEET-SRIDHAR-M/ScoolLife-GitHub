@@ -20,19 +20,20 @@
 .custom_col{
 	width:240px;
 	height:270px;
+	
 	margin-right:5px;
 	margin-left:5px;
 	background:#fa3;
 	display:inline-block;
 }
 
-.carousel-inner > .three-images > img,
-  .carousel-inner > .three-images > a > img {
+.custom_col > img {
 	
-	
-	/* margin : -1.9px;  To be done carefully */
-	display:inline;
+	margin-top:-262px;
+	width: 240px;
 	height: 270px;
-	width:32.9%
-
+	
+	
 }
+
+
