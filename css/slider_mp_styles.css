@@ -25,3 +25,14 @@
 	background:#fa3;
 	display:inline-block;
 }
+
+.carousel-inner > .three-images > img,
+  .carousel-inner > .three-images > a > img {
+	
+	
+	/* margin : -1.9px;  To be done carefully */
+	display:inline;
+	height: 270px;
+	width:32.9%
+
+}
