@@ -14,3 +14,14 @@
 	border: 5px solid #ADD8E6;
 	border-radius:7px;
 }
+
+.carousel-inner > .three-images > img,
+  .carousel-inner > .three-images > a > img {
+	
+	
+	/* margin : -1.9px;  To be done carefully */
+	display:inline;
+	height: 270px;
+	width:32.9%
+
+  }
