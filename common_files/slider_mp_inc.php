@@ -1,24 +1,21 @@
 
-<div class="container">
-  <br>
+<div>
   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-      <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="images/img_chania.jpg"> <!-- Include Image 1 here -->
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
+        <div class = "main_slide_wrap">
+			<div class = "custom_col" style = "margin-left:25px;">
+			
+			</div>
+			<div class = "custom_col">
+			
+			</div>
+			<div class = "custom_col">
+			
+			</div>
+		</div>
       </div>
 
       <div class="item">
@@ -48,12 +45,12 @@
     </div>
 
     <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style = "background-image:none">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style = "top:90%;left:10%;color:#092359"></span>
       <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style = "background-image:none">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style = "top:90%;right:10%;color:#092359"></span>
       <span class="sr-only">Next</span>
     </a>
   </div>
