@@ -15,6 +15,7 @@
 			
 			</div>
 		</div>
+		</div>
       <div class="item">
         <img src="images/img_chania2.jpg"> <!-- Include Image 2 here -->
         <div class="carousel-caption">
