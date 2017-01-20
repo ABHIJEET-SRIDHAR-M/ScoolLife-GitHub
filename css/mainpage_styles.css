@@ -2,6 +2,10 @@ html,body{
 	height:100%;
 	background: #f6f8f9;
 }
+a:hover,a:visited,a:active,a:link{
+	text-decoration:none;
+}
+	
 .body_wrap{
 	min-height:100%;
 	margin-bottom:-350px;
@@ -18,37 +22,4 @@ html,body{
 	background-color:#FFF;
 	height:100%;
 	box-shadow: 0 4px 5px 2px rgba(0,0,0,.3);
-}
-
-.events_mp{
-	float:left;
-	position:relative;
-	width: 290px;
-	border: 1px solid #e7e5e6;
-	background: #fff;
-	height: 290px;
-	margin:5px;
-}
-.events_mp>h3{
-	position:relative;
-	left:25%;
-	font-size: 17px;
-	color:#137e67;
-	text-align:center;
-	display:inline-block;
-	padding:  5px 5px 8px;
-	border-bottom: 2px #0b3384 solid;
-	margin-top:10px;
-}
-.events_mp>a{
-	position:absolute;
-	right:5px;
-	bottom:5px;
-	padding: 3px 12px 2px 12px;
-}
-.events_dec1{
-	width:100%;
-	height:80px;
-	!background:#BC5050;
-	background:#CF8343;
 }
