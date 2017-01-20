@@ -1,12 +1,16 @@
 
 <div>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel" data-intval="false">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 		<div class="item active">
 			<div class = "main_slide_wrap">
 				<div class = "custom_col" style = "margin-left:25px;">
-				<img src = "images/pay_fees_online.jpg">
+					<img src = "images/pay_fees_online.jpg">
+					<div style = "border-right: 1px solid red">
+						<h3>Fee Desk</h3>
+						<p>Pay your school Fees online safely and securely right from your home!</p>
+					</div>
 				</div>
 				<div class = "custom_col">
 				
@@ -28,7 +32,7 @@
         <img src="images/img_flower.jpg"> <!-- Include Image 3 here -->
         <div class="carousel-caption">
           <h3>Flowers</h3>
-          <p>Beatiful flowers in Kolymbari, Crete.</p>
+          <p>Beatiful flowers in Kolymbari, Create.</p>
         </div>
       </div>
 
