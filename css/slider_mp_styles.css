@@ -1,0 +1,50 @@
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    margin: 0 auto;
+	height: 300px;
+	width:100%
+
+  }
+  
+.slide{
+	width:800px;
+	height: 100%;
+	border-radius:7px;
+}
+.main_slide_wrap{
+	width:100%;
+	height:300px;
+	background:#fff;	
+}
+
+.custom_col{
+	width:240px;
+	margin-right:5px;
+	margin-left:5px;
+	display:inline-block;
+}
+
+.custom_col > img {
+	width: 150px;
+	height: 150px;
+	margin-top:10px;
+	margin-left:45px;
+}
+.custom_col > div > h3 {
+	width:100%;
+	text-align:center;
+	margin-bottom:5px;
+}
+.custom_col> div > p{
+	width:100%;
+	text-align:center;
+	padding:5px;
+	margin-bottom:5px;
+	margin-top:0px;
+}
+.custom_col>div>button{
+	min-height:20px;
+	margin-left:75px;
+	padding: 3px 12px 2px 12px;
+	width:100px;
+}
