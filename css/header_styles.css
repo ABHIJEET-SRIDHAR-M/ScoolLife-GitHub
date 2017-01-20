@@ -6,13 +6,11 @@
 	min-height:100px;
 	box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
-
 .header-logo{
 	position:absolute;
 	left:90px;
 	top:10px;
 }
-
 .header img{
 	width:400px;
 	height:150px;
@@ -20,7 +18,6 @@
 	-moz-border-radius: 50px 50px 10px 10px;
 	-webkit-border-radius: 50px 50px 10px 10px;
 }
-
 .header .rightblock{
 	float:right;
 	padding-right:30px;
@@ -29,7 +26,6 @@
 .header form input{
 	margin-right:10px;
 }
-
 .header .separator{
 	display: inline-block;
     padding-left: 10px;
@@ -38,17 +34,14 @@
     border-right-style: groove;
     border-right-width: thin;
 }
-
 .header .rightblock .last{
 	border-right-style: none; 
 }
-
 .header .down-navbar{
 position: absolute;
 left:490px;
 top:120px;
 }
-
 .header .down-navbar ul{
     margin: 0;
     padding: 0;
@@ -56,7 +49,6 @@ top:120px;
 	display:inline-block;
 	font-size:13px;
 }
-
 .header .down-navbar ul:first-child{
     margin: 0;
     padding: 0;
@@ -66,17 +58,14 @@ top:120px;
 	border-right-width: medium;
 	font-size:15px;
 }
-
 .header .down-navbar li{
 	display: inline;
 	margin-right: 5px;
 	font-weight:bold;
 }
-
 .header .down-navbar a{
 	padding: 5px;
 }
-
 .header .down-navbar a:hover{
 	background-color: #656565;
 	text-decoration:none;

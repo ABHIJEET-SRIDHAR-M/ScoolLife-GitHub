@@ -1,4 +1,3 @@
-
 <div style = "float:left">
   <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
     <!-- Wrapper for slides -->
@@ -39,7 +38,6 @@
         </div>
       </div>  
     </div>
-
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style = "background-image:none">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style = ";left:12%;color:#092359"></span>
@@ -51,13 +49,10 @@
     </a>
   </div>
 </div>
-
-
 <div class = "events_mp">
 	<h3> Upcoming Events </h3>
 	<div class = "events_body">
 		<ul class="events_list">
-		
 			<li>
 				<aside>
 					<span class="date"> 01 </span> <!-- Change the date here -->
@@ -65,9 +60,7 @@
 				</aside>
 				<p class = "event_name">MATHS OLYMPIAD</p> <p class="alignleft events_description">Classes: V to IX</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
-				
 			</li>
-			
 			<li>
 				<aside>
 					<span class="date"> 12 </span> <!-- Change the date here -->
@@ -75,9 +68,7 @@
 				</aside>
 				<p class = "event_name">ESSAY WRITING</p> <p class="alignleft events_description">Classes: VI to VIII</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
-				
 			</li>
-			
 			<li>
 				<aside>
 					<span class="date"> 19 </span> <!-- Change the date here -->
@@ -85,14 +76,10 @@
 				</aside>
 				<p class = "event_name">TALENT TEST</p> <p class="alignleft events_description">Classes: V to X</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
-				
 			</li>
-			
 			<a class = "events_viewall" href="#">View all events >></a>
-
 		</ul>
 	</div>
-	
 </div>
 <div class="events_dec1">
 </div>
