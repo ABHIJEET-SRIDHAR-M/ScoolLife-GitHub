@@ -51,13 +51,55 @@
     </a>
   </div>
 </div>
+
+
 <div class = "events_mp">
 	<h3> Upcoming Events </h3>
 	<div class = "events_body">
-		<ul>
+		<ul class="events_list">
+		
+			<li>
+				<aside>
+					<span class="date"> 14 </span> <!-- Change the date here -->
+					<span class="day"> Sept </span> <!-- Change the month here -->
+				</aside>
+				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+			</li>
+			
+			<li>
+				<aside>
+					<span class="date"> 14 </span> <!-- Change the date here -->
+					<span class="day"> Sept </span> <!-- Change the month here -->
+				</aside>
+				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+			</li>
+			
+			<li>
+				<aside>
+					<span class="date"> 14 </span> <!-- Change the date here -->
+					<span class="day"> Sept </span> <!-- Change the month here -->
+				</aside>
+				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+			</li>
+
+			<li>
+				<aside>
+					<span class="date"> 14 </span> <!-- Change the date here -->
+					<span class="day"> Sept </span> <!-- Change the month here -->
+				</aside>
+				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+			</li>
+			
+			<li>
+				<aside>
+					<span class="date"> 14 </span> <!-- Change the date here -->
+					<span class="day"> Sept </span> <!-- Change the month here -->
+				</aside>
+				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+			</li>
 		</ul>
 	</div>
-	<a href = "#">View All Events>></a>
+	
 </div>
 <div class="events_dec1">
 </div>
