@@ -63,7 +63,7 @@
 					<span class="date"> 01 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>MATHS OLYMPIAD</p> <p class="alignleft">Classes: V to IX</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p class = "event_name">MATHS OLYMPIAD</p> <p class="alignleft events_description">Classes: V to IX</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>
@@ -73,7 +73,7 @@
 					<span class="date"> 12 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>ESSAY WRITING</p> <p class="alignleft">Classes: VI to VIII</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p class = "event_name">ESSAY WRITING</p> <p class="alignleft events_description">Classes: VI to VIII</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>
@@ -83,12 +83,12 @@
 					<span class="date"> 19 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>TALENT TEST</p> <p class="alignleft">Classes: V to X</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p class = "event_name">TALENT TEST</p> <p class="alignleft events_description">Classes: V to X</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>
 			
-			<p class="alignright"><a href="#"><strong>View all events >> </strong></a>
+			<a class = "events_viewall" href="#">View all events >></a>
 
 		</ul>
 	</div>
