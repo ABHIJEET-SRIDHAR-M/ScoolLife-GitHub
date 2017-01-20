@@ -19,7 +19,7 @@
 			</div>
 			
 			<div class = "separator last">
-			<button class="btn btn-default" name="new_user_submit">New User ?</button>
+			<button class="btn btn-default" name="new_user_submit">New User</button>
 			</div>
 		</div>
 		
@@ -28,8 +28,8 @@
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Pay Fees</a></li>
 				<li><a href="#">Buy Online</a></li>
-				<li><a href="#">Events</a></li>
 				<li><a href="#">Student Corner</a></li>
+				<li><a href="#">Events</a></li>
 			</ul>
 			<ul style = "margin-left:10px;">
 				<li><a href="#">About Us</a></li>
