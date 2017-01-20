@@ -88,7 +88,7 @@
 				
 			</li>
 			
-			<li><p class="alignright"><a style="color:#FF0000" href="#"><strong>See all events >> </strong></a></li>
+			<p class="alignright"><a href="#"><strong>View all events >> </strong></a>
 
 		</ul>
 	</div>
