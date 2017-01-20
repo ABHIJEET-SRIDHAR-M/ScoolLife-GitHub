@@ -63,7 +63,7 @@
 					<span class="date"> 01 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>MATHS OLYMPIAD:</p> <p class="alignleft">Classes: V to IX</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p>MATHS OLYMPIAD</p> <p class="alignleft">Classes: V to IX</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>
@@ -73,7 +73,7 @@
 					<span class="date"> 12 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>ESSAY WRITING:</p> <p class="alignleft">Classes: VI to VIII</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p>ESSAY WRITING</p> <p class="alignleft">Classes: VI to VIII</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>
@@ -83,7 +83,7 @@
 					<span class="date"> 19 </span> <!-- Change the date here -->
 					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<p>TALENT SEARCH:</p> <p class="alignleft">Classes: V to X</p> <p class="alignright"> <a href="#"> Know more... </a></p>
+				<p>TALENT TEST</p> <p class="alignleft">Classes: V to X</p> <p class="alignright"> <a href="#"> Know more... </a></p>
 				<div style="clear: both;"></div>
 				
 			</li>

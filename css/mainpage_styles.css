@@ -28,10 +28,6 @@ html,body{
 	background: #fff;
 	height: 290px;
 	margin:5px;
-	transition: background .15s ease-in;
-}
-.events_mp:hover{
-	background: #f8f8f8;
 }
 .events_mp>h3{
 	position:relative;
