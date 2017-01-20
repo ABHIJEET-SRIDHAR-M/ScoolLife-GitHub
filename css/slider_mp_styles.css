@@ -57,6 +57,7 @@
 	margin:5px;
 	padding-left:15px;
 	padding-right:15px;
+	z-index:20;
 }
 .events_mp>h3{
 	position:relative;
@@ -80,7 +81,9 @@
 	width:100%;
 	height:80px;
 	!background:#BC5050;
-	background:#CF8343;
+	!background:#CF8343;
+	background:#fdd619;
+	z-index:5;
 }
 .events_list{
 	display: block;
