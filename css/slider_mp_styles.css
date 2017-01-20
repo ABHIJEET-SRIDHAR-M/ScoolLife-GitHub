@@ -66,9 +66,9 @@
 
  .events_mp .events_body >ul > li aside {
     border: 1px solid #f2eed6;
-    background: #EEE;
+    background: rgba(83, 78, 99, 0.88);;
     font-size: 11px;
-    color: #666;
+    color: #fff;
     width: 35px;
     padding: 5px;
     display: inline;
