@@ -60,43 +60,31 @@
 		
 			<li>
 				<aside>
-					<span class="date"> 14 </span> <!-- Change the date here -->
-					<span class="day"> Sept </span> <!-- Change the month here -->
+					<span class="date"> 01 </span> <!-- Change the date here -->
+					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+				<p>Maths Olympiad for classes V to X. </p><a href="#"> Know more..</a>
+				
 			</li>
 			
 			<li>
 				<aside>
-					<span class="date"> 14 </span> <!-- Change the date here -->
-					<span class="day"> Sept </span> <!-- Change the month here -->
+					<span class="date"> 12 </span> <!-- Change the date here -->
+					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+				<p>Physics Olympiad. </p> <a href="#"> Know more..</a>
+				
 			</li>
 			
 			<li>
 				<aside>
-					<span class="date"> 14 </span> <!-- Change the date here -->
-					<span class="day"> Sept </span> <!-- Change the month here -->
+					<span class="date"> 19 </span> <!-- Change the date here -->
+					<span class="day"> Feb </span> <!-- Change the month here -->
 				</aside>
-				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
+				<p>Essay Writing Competition. </p><a href="#"> Know more..</a>
+				
 			</li>
 
-			<li>
-				<aside>
-					<span class="date"> 14 </span> <!-- Change the date here -->
-					<span class="day"> Sept </span> <!-- Change the month here -->
-				</aside>
-				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
-			</li>
-			
-			<li>
-				<aside>
-					<span class="date"> 14 </span> <!-- Change the date here -->
-					<span class="day"> Sept </span> <!-- Change the month here -->
-				</aside>
-				<a href="#"> This is the Even number 1 : That is my BirthDay !!!</a>
-			</li>
 		</ul>
 	</div>
 	
