@@ -21,19 +21,27 @@
 			<link rel="stylesheet" type="text/css" href="css/header_styles.css">
 			<link rel="stylesheet" type="text/css" href="css/footer_styles.css">
 			<link rel="stylesheet" type="text/css" href="css/slider_mp_styles.css">
+			<link rel="stylesheet" type="text/css" href="css/school_zone_styles.css">
 	</head>
 	<body>
+	
 		<!-- Header -->
 		<?php include 'common_files/header_big_inc.php' ?> 
 
+		<!-- Main Body -->
 		<div class = "main_body">
 			<?php include 'common_files/slider_mp_inc.php' ?> 
+			<?php include 'common_files/school_zone_mp_inc.php' ?> 
 		</div>
+		
 	<!-- Footer -->
 	<?php include 'common_files/footer_big_inc.php' ?> 
+	
+	
 	<!-- Java Script Links -->
 	<script src="bootstrap/jquery/jquery.min.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/mainpage.js"></script>
 
 	</body>
 </html>
