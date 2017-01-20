@@ -59,4 +59,8 @@
 	</div>
 	<a href = "#">View All Events>></a>
 </div>
-<div style = "float:clear"></div>
+<div class="events_dec1">
+</div>
+<div class="events_dec1" style = "margin-top:140px;">
+</div>
+<div style = "clear:both"></div>

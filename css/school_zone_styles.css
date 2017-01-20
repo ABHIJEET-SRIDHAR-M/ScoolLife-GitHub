@@ -1,0 +1,12 @@
+.schoolzone_header{
+	width:100%;
+	border-top: solid 1px #e7e5e6 !important;
+	border-bottom: solid 1px #e7e5e6 !important;
+	background-color: #f9f6ef;
+}
+.schoolzone_header>h4{
+	text-align:center;
+	color: #353571;
+	padding: 7px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}

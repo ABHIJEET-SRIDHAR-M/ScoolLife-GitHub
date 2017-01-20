@@ -50,3 +50,9 @@ html,body{
 	bottom:5px;
 	padding: 3px 12px 2px 12px;
 }
+.events_dec1{
+	width:100%;
+	height:80px;
+	!background:#BC5050;
+	background:#CF8343;
+}
