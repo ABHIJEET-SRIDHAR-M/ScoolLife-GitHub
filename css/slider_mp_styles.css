@@ -52,7 +52,7 @@
 .events_mp{
 	padding-left:15px;
 	padding-right:15px;
-	overflow: auto;
+	
 }
 
 .events_list{
@@ -79,19 +79,17 @@
 .events_mp .events_body >ul >li {
 	overflow: hidden;
     border-bottom: 1px solid #dad9d5;
-    margin-bottom: 10px;
+	padding-bottom:10px;
+    margin-bottom: 15px;
+}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
 }
 
 .events_mp .events_body >ul >li> p{
-	display: inline;
-    float: left;
-    padding: 0;
-    font-size: 15px;
-    color: #6b180e;
-    width: 80%;
-    margin-left: 10px;
-    line-height: 1.5;
-}
-.events_mp .events_body >ul >li> a{
-	
+	margin:0px;
+	color:#6b180e;
 }
