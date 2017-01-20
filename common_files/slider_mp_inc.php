@@ -8,7 +8,7 @@
 					<img src = "images/pay_fees_online.jpg">
 					<div style = "border-right: 1px solid red">
 						<h3>Fee Desk</h3>
-						<p>Pay school Fees online safely and securely right from your home!</p>
+						<p>Pay school Fees online from the comfort of your home!</p>
 						<button class="btn btn-warning" type="submit">Pay Now</button>
 					</div>
 				</div>
@@ -16,7 +16,7 @@
 					<img src = "images/shop online.jpg">
 					<div style = "border-right: 1px solid red">
 						<h3>Buy Online</h3>
-						<p>We deliver stationery to sports kits right to your door step!</p>
+						<p>Get all the needs of your kids delivered to your door step!</p>
 						<button class="btn btn-info" type="submit">Shop Online</button>
 					</div>
 				</div>
@@ -24,7 +24,7 @@
 					<img src = "images/studentscorner.jpg">
 					<div>
 						<h3>Student Corner</h3>
-						<p>Addictive yet educative puzzles with rankings and special prizes!</p>
+						<p>Fun and Educative puzzles with rankings and special prizes!</p>
 						<button class="btn btn-warning" type="submit">Start</button>
 					</div>
 				</div>
