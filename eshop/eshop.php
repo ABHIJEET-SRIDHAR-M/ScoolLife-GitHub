@@ -12,26 +12,20 @@ if (!isset($_SESSION['cart'])) {
 <html>
 <head>
 <meta charset="UTF-8">
-<meta name="description" content="India's Largest Online Florist and gift shop. Gifting is now made awesome. Gift and thrill your loved ones with variety of gifts from our collection. We deliver on the day of your choice." />
-<meta name="keywords" content="flowers, send flowers, send fresh flowers,send fresh flowers india, send flowers online, gift online" />
-<meta name="author" content="Sandeep">
-<meta name="robots" content="index, follow" />
-<meta name="googlebot" content="NOODP, nofollow">
-<meta name="fragment" content="!"/>
 <title>ScoolLife - Order Online</title>
 <!icon>
-<link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon"/>
+<link rel="shortcut icon" href="../images/icon.jpg" type="image/x-icon"/>
 <!Css Reset>
-	<link rel="stylesheet" type="text/css" href="css/cssreset.css">
+	<link rel="stylesheet" type="text/css" href="../css/cssreset.css">
 	
 <! Bootstrap Css links>
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap-theme.min.css">
 
 <!Select Css link>
 	<link rel="stylesheet" type="text/css" href="select_master/dist/css/bootstrap-select.min.css">
 <!font-awesome link>
-	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../font-awesome/css/font-awesome.min.css">
 
 <!Slider Css Link>
 	<link rel="stylesheet" type="text/css" href="slider/slider.css">
@@ -61,26 +55,6 @@ if (!isset($_SESSION['cart'])) {
 	
 </head>
 <body>
-<script type="application/ld+json">
-    {
-      "@context": "http://schema.org",
-      "@type": "Florist",
-	  "name":"Send Fresh Flowers",
-      "url": "http://www.sendfreshflowers.co.in",
-      "sameAs" : [ "https://www.facebook.com/pages/Send-Fresh-Flowers/1460169447635086",
-    "https://twitter.com/sendflowers_sff",
-    "http://google.com/+SendfreshflowersIndia"],
-      "logo": "http://www.sendfreshflowers.co.in/logo.jpg",
-      "contactPoint" : [
-    { "@type" : "ContactPoint",
-      "telephone" : "+918185985626",
-      "contactType" : "customer service"
-    }],
-	  "email": "care@sendfreshflowers.co.in",
-	  "priceRange": "Rs. 399 to Rs. 6000",
-      "location": "Hyderabad"
-    }
-    </script>
 <div>
 <! Main Page Header>
 <?php include 'inc/header_mainpage_inc.php'; ?>
@@ -93,9 +67,9 @@ if (!isset($_SESSION['cart'])) {
 
 </div>
 <! Jquery Link>
-    <script src="js/jquery.js"></script>
+    <script src="../js/jquery.js"></script>
 <! Bootstrap jscript Link>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
     <script src="js/mainsite_jscript.js"></script>
 <!Select Js link>
