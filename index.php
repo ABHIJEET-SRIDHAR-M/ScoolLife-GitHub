@@ -5,7 +5,8 @@
 			<meta name="viewport" content="width=device-width, initial-scale=1">
 
 			<title> Welcome to ScoolLife </title>
-	
+			<!icon>
+			<link rel="shortcut icon" href="images/icon.jpg" type="image/x-icon"/>
 			<!-- CSS Links -->
 			<!-- Css Reset -->
 			<link rel="stylesheet" type="text/css" href="css/cssreset.css">
