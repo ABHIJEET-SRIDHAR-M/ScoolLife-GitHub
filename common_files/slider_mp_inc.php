@@ -31,11 +31,11 @@
 			</div>
 		</div>
       <div class="item">
-        <img src="images/img_chania2.jpg"> <!-- Include Image 2 here -->
-        <div class="carousel-caption">
-          <h3>Chania</h3>
-          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
-        </div>
+        <div class = "books_offer_wrapper">
+			<img src = "images/bottom_flowers.jpg" style = "position:absolute;top:0%;height:90px;left:164px;"></img>
+			<img class = "img1" src= "images/books_stack1.jpg" />
+			<h4> Get the complete School Kit set of your kid for the next class door delivered for free!!</h4>
+		</div>
       </div>  
     </div>
     <!-- Left and right controls -->

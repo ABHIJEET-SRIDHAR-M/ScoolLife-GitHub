@@ -45,6 +45,27 @@
 	width:100px;
 }
 
+.books_offer_wrapper{
+	position:relative;
+	width:100%;
+	height:300px;
+	margin:auto;
+	background:#fff;
+}
+.books_offer_wrapper .img1{
+	position:absolute;
+	width:150px;
+	height:150px;
+	top:40%;
+	left:100px;
+}
+.books_offer_wrapper h4{
+	position:absolute;
+	top:40%;
+	text-align:right;
+	width:50%;
+	left:40%
+}
 /* Styles for Upcoming events*/
 
 .events_mp{
