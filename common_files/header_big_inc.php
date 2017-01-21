@@ -1,7 +1,7 @@
 <div class="header">
 		<div class="header-logo">
 			<a href="#">
-				<img src="images/logo.jpg">
+				<img src="/ScoolLife-GitHub/images/logo.jpg">
 			</a>
 		</div>
 		<div class="rightblock">						

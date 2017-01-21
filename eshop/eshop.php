@@ -33,6 +33,7 @@ if (!isset($_SESSION['cart'])) {
 	
 <!Custom style sheet>
 <link rel="stylesheet" type="text/css" href="css/styles_mainpage.css">
+<link rel="stylesheet" type="text/css" href="../css/header_styles.css">
 
 <!Alert Plugin links>
 	<script src="js/alert/lib/sweet-alert.min.js"></script>
@@ -57,7 +58,7 @@ if (!isset($_SESSION['cart'])) {
 <body>
 <div>
 <! Main Page Header>
-<?php include 'inc/header_mainpage_inc.php'; ?>
+<?php include '../common_files/header_big_inc.php'; ?>
 
 <!Products Display>
 <?php include 'inc/products_display_inc.php' ?>
