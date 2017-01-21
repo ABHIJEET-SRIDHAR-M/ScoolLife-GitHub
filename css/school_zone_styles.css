@@ -2,7 +2,8 @@
 	width:100%;
 	border-top: solid 1px #e7e5e6 !important;
 	border-bottom: solid 1px #e7e5e6 !important;
-	background-color: #f9f6ef;
+	!background-color: #f9f6ef;
+	background-color: rgba(242, 222, 222, 0.5);
 }
 .schoolzone_header>h4{
 	text-align:center;

@@ -1,5 +1,5 @@
 <div style = "float:left">
-  <div id="myCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
+  <div id="myCarousel" class="carousel slide" data-interval="8000" data-ride="carousel">
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 		<div class="item active">
