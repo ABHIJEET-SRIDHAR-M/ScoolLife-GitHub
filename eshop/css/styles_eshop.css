@@ -64,10 +64,10 @@ display:block;
 	padding-right:30px;
 }
 .cart{
-	!left:740px;
+	z-index:100;
 	position:absolute;
 	top:70px;
-	left:980px;
+	right:100px;
 	cursor:pointer;
 }
 
@@ -150,6 +150,7 @@ display:block;
 				content:"";
 				height: 3px;
 				background: rgba(0,0,0,.3);
+				!background: #46A2F0;
 				display: block;
 				position: absolute;
 				bottom: -3px;
@@ -161,7 +162,7 @@ display:block;
 				display:block;
 				padding:20px;
 				position:relative; /* allows us to position our pseudo-elements properly */
-				background:#F06087;
+				background:#46A2F0;
 				overflow:visible;
 				height:58px;
 				margin-left:29px;
@@ -177,7 +178,7 @@ display:block;
 				position:absolute;
 				bottom:-15px;
 				right:0;
-				border-top: 15px solid #F06087; 
+				border-top: 15px solid #46A2F0; 
 				border-right: 15px solid transparent;
 			}
 			
@@ -189,19 +190,19 @@ display:block;
 				position:absolute;
 				top:0;
 				left:-29px;
-				border-top: 29px solid #F06087; 
-				border-bottom: 29px solid #F06087; 
+				border-top: 29px solid #46A2F0; 
+				border-bottom: 29px solid #46A2F0; 
 				border-right: 29px solid transparent;
 				border-left: 29px solid transparent;
 			}
 			
 			#ribbon-container a:hover {
-				background:#D96087;
+				background:#1384E4;
 			}
 			
 			#ribbon-container a:hover:before { /* this makes sure that the "forked" part of the ribbon changes color with the anchor on :hover */
-				border-top: 29px solid #D96087; 
-				border-bottom: 29px solid #D96087;
+				border-top: 29px solid #1384E4; 
+				border-bottom: 29px solid #1384E4;
 			}
 
 
@@ -395,9 +396,7 @@ display:block;
 	 margin:0px;
 }
 .navbar-default{
-!background-image:linear-gradient(to bottom, rgba(114, 243, 43, 1) 0px, #70E085 100%);
-!background-image:linear-gradient(to bottom, #A19FE6 0px, #7079E0 100%);
-background-image: linear-gradient(to bottom, #ED5F86 0px, #C84568 100%);
+background-image: linear-gradient(to bottom, #4EA1E9 0px, #1F6DB0 100%);
 width:1102px;
 margin-left:-16px;
 }
@@ -406,7 +405,7 @@ margin-left:-16px;
     background-color: transparent;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
-    background-image: linear-gradient(to bottom, #FFD2DE 0px, #FFD2DE 100%);
+    background-image: linear-gradient(to bottom, #D7E1F9 0px, #CDCFE7 100%);
 	font-size:17px;
 }
 .navbar-default .navbar-brand {

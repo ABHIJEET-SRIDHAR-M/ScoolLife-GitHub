@@ -21,7 +21,7 @@
 		</div>
 		<div class="down-navbar">
 			<ul>
-				<li><a href="#">Home</a></li>
+				<li><a href="/ScoolLife-GitHub/index.php">Home</a></li>
 				<li><a href="#">Pay Fees</a></li>
 				<li><a href="/ScoolLife-GitHub/eshop/eshop.php">Buy Online</a></li>
 				<li><a href="#">Student Corner</a></li>

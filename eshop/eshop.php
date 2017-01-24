@@ -58,8 +58,8 @@ if (!isset($_SESSION['cart'])) {
 <body>
 <div>
 <! Main Page Header>
-<?php include 'inc/header_mainpage_inc.php'; ?>
 <?php include '../common_files/header_big_inc.php'; ?>
+<?php include 'inc/header_eshop_inc.php'; ?>
 
 <!Products Display>
 <?php include 'inc/products_display_inc.php' ?>

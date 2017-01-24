@@ -1,9 +1,9 @@
 <!cart>
 	<div class = "cart" id = "cart" href = "#myModal_cart" data-toggle="modal">
 			<p>
-			<span class = "glyphicon glyphicon-shopping-cart" style = "color:#B15767;font-size:18px;"></span>
+			<span class = "glyphicon glyphicon-shopping-cart" style = "color:#fff;font-size:18px;"></span>
 			<span id = "cart_item_num" class = "cart_item_num"><?php echo sizeof($_SESSION['cart']); ?></span>
-			<span style = "padding-left:25px;font-size:16px;">Cart</span>
+			<span style = "padding-left:25px;font-size:16px;color:#fff">Cart</span>
 			</p>
 	</div>
 <?php
