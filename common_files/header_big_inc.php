@@ -23,7 +23,7 @@
 			<ul>
 				<li><a href="#">Home</a></li>
 				<li><a href="#">Pay Fees</a></li>
-				<li><a href="#">Buy Online</a></li>
+				<li><a href="/ScoolLife-GitHub/eshop/eshop.php">Buy Online</a></li>
 				<li><a href="#">Student Corner</a></li>
 				<li><a href="#">Events</a></li>
 			</ul>

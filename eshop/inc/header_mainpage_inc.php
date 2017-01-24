@@ -1,18 +1,3 @@
-<div itemscope itemtype = "http://schema.org/Florist">
- <div class = "header_wrapper">
-	<div class = "header_topbar">
-		<div class = "topbar_call"><span class = "glyphicon glyphicon-earphone" style = "color:rgb(25, 25, 100);margin-right:7px;"></span> We are here for you 24x7 at <a href = "services_contactus.php"><span itemprop = "telephone"> +91 8185985626</span></a></div>
-		<div class = "topbar_mail"><span class = "glyphicon glyphicon-envelope" style = "color:rgb(25, 25, 100);margin-right:7px;"></span>  Mail us at <a href = "services_feedback.php"><span itemprop = "email">care@sendfreshflowers.co.in</span></a></div>
-	</div>
-  </div>
-</div>
-	<span class = "clearfix"></span>
-	<div class = "header_main shadow">
-<!Site Logo>
-	<div class = "site_logo">
-		<a href = "index.php"><img src = "logo_colorful_violet.jpg" alt = "SEND FRESH FLOWERS" height= "90px"></span></a>
-	</div>
-	
 <!cart>
 	<div class = "cart" id = "cart" href = "#myModal_cart" data-toggle="modal">
 			<p>
@@ -21,49 +6,19 @@
 			<span style = "padding-left:25px;font-size:16px;">Cart</span>
 			</p>
 	</div>
-<!Location Selection>
-		<div class = "location_select">
-			
-				<select id = "location_select" class="selectpicker">
 <?php
 	$query = "SELECT `id`, `location` FROM `locations`";
 	$sth = $dbh->query($query);
 	if (!isset($_SESSION['location'])){
 		$_SESSION['location'] = 1;
 	} 
-	while ($result = $sth->fetch(PDO::FETCH_ASSOC)){
-		
-		echo '<option value = "'.$result['id'].'"';
+	/* while ($result = $sth->fetch(PDO::FETCH_ASSOC)){
 		if (isset($_SESSION['location']) && $_SESSION['location'] == $result['id']){
 			echo 'selected = "selected"';
 		}
 		echo '>'.$result['location'].'</option>';
-	}
+	} */
 ?>
-				</select>
-			</div>
-	
-	<div class = "site_menu">
-		<ul class = "list-inline">
-			<li style = "padding-left:20px"><a href = "index.php">Home</a></li>
-			<li><a href = "services_bestsellers.php">Best Sellers</a></li>
-			<li><a href = "services_faqs.php">FAQs</a></li>	
-			<li><a href = "services_trackorder.php">Track My Order</a></li>	
-			<li style = "padding-right:20px"><a href = "services_contactus.php">Contact Us</a></li>	
-		</ul>
-	</div>
-<!Social Buttons>
-	<div class = "social_header">
-	<span itemscope itemtype = "http://schema.org/Florist">
-		<link itemprop="url" href="http://www.sendfreshflowers.co.in"> 
-	                    <ul class="list-inline">
-                        <li><a itemprop = "sameAs" href="https://www.facebook.com/pages/Send-Fresh-Flowers/1460169447635086" target = "_blank"><i class=" fa fa-facebook" style = "color:#3b5998"></i></a></li>
-                        <li><a itemprop = "sameAs" href="https://twitter.com/sendflowers_sff" target = "_blank"><i class="fa fa-twitter" style = "color: #00ACED"></i></a></li>
-                        <li><a itemprop = "sameAs" href="http://google.com/+SendfreshflowersIndia" target = "_blank"><i class="fa fa-google-plus" style = "color:#D14836"></i></a></li>
-	</span>
-	</div>
-        </div>
-	</div>
 
 
 <!Cart Modal>
