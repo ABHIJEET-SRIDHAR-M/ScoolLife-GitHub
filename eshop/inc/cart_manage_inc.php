@@ -1,5 +1,5 @@
 <?php
-include 'core_inc.php';
+include '../../common_files/core_inc.php';
 
 /*
 Cart being Loaded through Ajax.

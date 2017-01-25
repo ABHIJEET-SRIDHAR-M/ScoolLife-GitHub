@@ -1,5 +1,5 @@
 <?php
-include 'core_inc.php';
+include '/ScoolLife-GitHub/common_files/core_inc.php';
 
 if (isset($_REQUEST['code']) && !empty($_REQUEST['code'])){
 	if ($_REQUEST['code'] == "FIRST100"){

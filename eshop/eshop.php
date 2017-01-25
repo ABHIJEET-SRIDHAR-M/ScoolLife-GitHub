@@ -65,7 +65,7 @@ if (!isset($_SESSION['cart'])) {
 <?php include 'inc/products_display_inc.php' ?>
 
 <!Main Page Footer>
-<?php include 'inc/footer_mainpage_inc.php' ?>
+<?php include '../common_files/footer_big_inc.php' ?>
 
 </div>
 <! Jquery Link>

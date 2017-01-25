@@ -1,5 +1,5 @@
 <?php
-include 'core_inc.php';
+include '../../common_files/core_inc.php';
 $cart_size = sizeof($_SESSION['cart']);
 if (isset($_REQUEST['id']) && !empty($_REQUEST['id'])){
 	$id = $_REQUEST['id'];
