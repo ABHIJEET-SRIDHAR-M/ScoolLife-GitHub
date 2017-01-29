@@ -34,6 +34,7 @@ if (!isset($_SESSION['cart'])) {
 <!Custom style sheet>
 <link rel="stylesheet" type="text/css" href="css/styles_eshop.css">
 <link rel="stylesheet" type="text/css" href="css/header_styles.css">
+<link rel="stylesheet" type="text/css" href="../css/footer_styles.css">
 
 <!Alert Plugin links>
 	<script src="js/alert/lib/sweet-alert.min.js"></script>
