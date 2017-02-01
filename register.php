@@ -24,6 +24,8 @@ if(!empty($_GET['redirect'])){
 			<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.min.css">
 			<!-- font-awesome link -->
 			<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+			<!--Select Css link-->
+			<link rel="stylesheet" type="text/css" href="eshop/select_master/dist/css/bootstrap-select.min.css">
 			<!---Custom Css Links -->
 			<link rel="stylesheet" type="text/css" href="css/mainpage_styles.css">
 			<link rel="stylesheet" type="text/css" href="css/header_styles.css">
@@ -63,7 +65,7 @@ if(!empty($_GET['redirect'])){
 			} else{
 	?>
 		<!-- Select User Role - Parent/ Student Modal -->
-			<div id="selectionModal" class="modal fade" style="margin-top:150px;">
+			<div id="selectionModal" class="modal fade" data-backdrop="static" style="margin-top:150px;">
 				<div class="modal-dialog" style = "width:400px;">
 					<div class="modal-content" style = "border: 5px solid #f2f2f2;height:200px;">
 						<div class="modal-header" style = "border-bottom:2px solid #B80000">
@@ -71,9 +73,9 @@ if(!empty($_GET['redirect'])){
 						</div>
 						<div class="modal-body">
 							<div style = "margin-top:5px;">
-								<button class = "btn btn-success" style = "margin-left:40px;">I am a Parent</button>
-								<button class = "btn btn-warning" style = "margin-left:50px;">I am a Student</button>
-								<button class = "btn btn-danger" style = "margin-top:20px;margin-left:90px;">I just want to shop online!</button>
+								<button id = "parent_btn" class = "btn btn-success" style = "margin-left:40px;">I am a Parent</button>
+								<button id = "student_btn" class = "btn btn-warning" style = "margin-left:50px;">I am a Student</button>
+								<button id = "shopper_btn" class = "btn btn-danger" style = "margin-top:20px;margin-left:90px;">I just want to shop online!</button>
 							</div>
 						</div>
 					</div>
@@ -128,28 +130,27 @@ if(!empty($_GET['redirect'])){
 							<span class = "help-block">To be used for Login. Format: 7730889469</span>
 						</div>
 					</div>
-					<div class="form-group" style = "padding-bottom:10px;">
+					<div class="form-group" style = "padding-bottom:5px;">
 						<label class="control-label col-xs-4" style = "text-align:left">Name :</label>
 						<div class="col-xs-8">
 							<input type="text" class="form-control" id="name_recipient" name = "name" placeholder="Full Name" required>
 						</div>
 					</div>
 					<div class="form-group" style = "padding-bottom:10px;">
-						<div class="col-xs-offset-4 col-xs-8">
+					<label class="control-label col-xs-4" style = "text-align:left">Gender :</label>
 							<div class="radio">
-							  <label>
+							  <label style="margin-left:15px">
 								<input type="radio" name="notify_recipient" id="optionsRadios1" value="1" />
-								Boy
+								Male
 							  </label>
 							  <label>
 								<input type="radio" name="notify_recipient" id="optionsRadios2" value="2" />
-								Girl
+								Female
 							  </label>
 							</div>
-						</div>
 					</div>			
 					<div class="form-group" style = "padding-bottom:10px;">
-						<label class="control-label col-xs-4" style = "text-align:left" for="recipientName">Preferred Time :</label>
+						<label class="control-label col-xs-4" style = "text-align:left" for="recipientName">Class :</label>
 							<select id = "class_select" name = "student_class" class = "col-xs-8 selectpicker">
 							<option value = "11">LKG</option>
 							<option value = "12">UKG</option>
@@ -184,6 +185,9 @@ if(!empty($_GET['redirect'])){
 	<!-- Java Script Links -->
 	<script src="js/jquery.js"></script>
 	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<!--Select Js link-->
+	<script src="eshop/select_master/dist/js/bootstrap-select.js"></script>
 	<script src="js/register.js"></script>
+	
 	</body>
 </html>

@@ -30,7 +30,7 @@
 					<button type="button" class="btn btn-warning"><a href="http://google.com/+SendfreshflowersIndia" target = "_blank"> <i class="fa fa-google-plus">   </i> </a></button> 
 			</div>
 			<div class = "separator last">
-			<button class="btn btn-default" name="new_user_submit"><a style = "text-decoration:none; color:black;" href="/ScoolLife-GitHub/register.php">New User</button>
+			<a class="btn btn-default" style = "text-decoration:none; color:black;" href="/ScoolLife-GitHub/register.php">New User</a>
 			</div>
 		</div>
 		<div class="down-navbar">
