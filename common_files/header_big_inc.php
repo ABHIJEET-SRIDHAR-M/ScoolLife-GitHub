@@ -5,18 +5,32 @@
 			</a>
 		</div>
 		<div class="rightblock">						
+		<?php 
+			if(isset($_SESSION['user_id'])){
+			$query = "SELECT `name` FROM `items` WHERE `id` = :id";
+			$sth = $dbh->prepare($query);
+			$sth->bindParam(':id',$id,PDO::PARAM_INT);
+			$sth->execute();
+			while($result = $sth->fetch(PDO::FETCH_ASSOC)){}
+			} else {
+		?>
 			<form class="navbar-form separator">
 				<input type="text" class="form-control" placeholder="Username">
 				<input type="text" class="form-control" placeholder="Password">					
 				<button class="btn btn-info" type="submit" name="user_pass_submit">Login</button>
 			</form>
+		<?php 
+			}
+			
+			
+		?>
 			<div class="btn-group separator">
 					<button type="button" class="btn btn-warning"><a href="https://www.facebook.com/pages/Send-Fresh-Flowers/1460169447635086" target = "_blank"> <i class=" fa fa-facebook">   </i> </a></button>
 					<button type="button" class="btn btn-warning"> <a href="https://twitter.com/sendflowers_sff" target = "_blank"> <i class="fa fa-twitter">   </i> </a> </button>
 					<button type="button" class="btn btn-warning"><a href="http://google.com/+SendfreshflowersIndia" target = "_blank"> <i class="fa fa-google-plus">   </i> </a></button> 
 			</div>
 			<div class = "separator last">
-			<button class="btn btn-default" name="new_user_submit">New User</button>
+			<button class="btn btn-default" name="new_user_submit"><a style = "text-decoration:none; color:black;" href="/ScoolLife-GitHub/register.php">New User</button>
 			</div>
 		</div>
 		<div class="down-navbar">
