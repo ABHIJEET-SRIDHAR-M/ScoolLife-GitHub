@@ -3,7 +3,7 @@ $user = "mukundan";
 $pswd = "kalavathi";
 
 try{
-$dbh = new PDO('mysql:host=localhost;dbname=gifts', $user,$pswd);
+$dbh = new PDO('mysql:host=localhost;dbname=scoollife', $user,$pswd);
 $dbh->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 	echo 'Sorry.. Couldnt connect to database';

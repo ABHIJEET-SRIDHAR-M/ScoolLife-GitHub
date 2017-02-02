@@ -46,22 +46,28 @@ if(!empty($_GET['redirect'])){
 				$result = $sth->fetch(PDO::FETCH_ALL);
 				if(count($result) > 0){
 					// User already registered TODO : SANDEEP
-					
+					echo 'User already exists!';
 				}
 			}
 			//If user not already registered, register him in db
+				$email = $_POST['email'];
+				if(empty($email)){
+					$email = 'nil';
+				}
+				//Hash password for safety
+				$pass = $_POST['password'];
+				$pass_hash = password_hash($pass, PASSWORD_DEFAULT);
 				$query = "INSERT INTO `parents` (name,password,phone,email) VALUES (:name,:password,:phone,:email)";
 				$sth = $dbh->prepare($query);
 				$sth->bindParam(':name',$_POST['name'],PDO::PARAM_STR);
-				$sth->bindParam(':password',$_POST['password'],PDO::PARAM_STR);
+				$sth->bindParam(':password',$pass_hash,PDO::PARAM_STR);
 				$sth->bindParam(':phone',$_POST['phone'],PDO::PARAM_STR);
-				$sth->bindParam(':email',$_POST['email'],PDO::PARAM_STR);
+				$sth->bindParam(':email',$email,PDO::PARAM_STR);
 				$sth->execute();
-				if(!isset($_SESSION['user_id'])){
 					$_SESSION['user_id'] = $dbh->lastInsertId();
+					$_SESSION['parentName'] = $_POST['name'];
 					//Redirect User from where he was directed //TODO : SANDEEP
 					header('Location: index.php');
-				}
 			} else{
 	?>
 		<!-- Select User Role - Parent/ Student Modal -->

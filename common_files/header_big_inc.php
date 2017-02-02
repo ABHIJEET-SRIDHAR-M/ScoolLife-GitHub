@@ -1,3 +1,25 @@
+<?php
+	if(isset($_POST['login_userName']) && isset($_POST['login_password'])){
+		$query = "SELECT `id`, `password`,`name` FROM `parents` WHERE `phone` = :phone";
+		$sth = $dbh->prepare($query);
+		$sth->bindParam(':phone',$_POST['login_userName'],PDO::PARAM_STR);
+		$sth->execute();
+		$result = $sth->fetch(PDO::FETCH_ASSOC);
+		if($sth->rowCount() == 1){
+			if(password_verify($_POST['login_password'],$result['password'])){
+			//User Login Success
+				$_SESSION['user_id'] = $result['id'];
+				$_SESSION['parentName'] = $result['name'];
+			} else {
+			//Invalid Password
+				echo 'Invalid Login';
+			}
+		} else {
+			// No user with the details exist
+			echo 'Invalid Login';
+		}
+	}
+?>
 <div class="header">
 		<div class="header-logo">
 			<a href="#">
@@ -7,16 +29,12 @@
 		<div class="rightblock">						
 		<?php 
 			if(isset($_SESSION['user_id'])){
-			$query = "SELECT `name` FROM `items` WHERE `id` = :id";
-			$sth = $dbh->prepare($query);
-			$sth->bindParam(':id',$id,PDO::PARAM_INT);
-			$sth->execute();
-			while($result = $sth->fetch(PDO::FETCH_ASSOC)){}
+			echo '<span>Welcome '.$_SESSION['parentName'].'</span>';
 			} else {
 		?>
-			<form class="navbar-form separator">
-				<input type="text" class="form-control" placeholder="Username">
-				<input type="text" class="form-control" placeholder="Password">					
+			<form class="navbar-form separator" action = "<?php echo $current_file;?>" method = "POST">
+				<input type="text" class="form-control" name = "login_userName" placeholder="Phone Num">
+				<input type="password" class="form-control" name = "login_password" placeholder="Password">					
 				<button class="btn btn-info" type="submit" name="user_pass_submit">Login</button>
 			</form>
 		<?php 
@@ -30,7 +48,11 @@
 					<button type="button" class="btn btn-warning"><a href="http://google.com/+SendfreshflowersIndia" target = "_blank"> <i class="fa fa-google-plus">   </i> </a></button> 
 			</div>
 			<div class = "separator last">
+			<?php if(!isset($_SESSION['user_id'])){ ?>
 			<a class="btn btn-default" style = "text-decoration:none; color:black;" href="/ScoolLife-GitHub/register.php">New User</a>
+			<?php } else {?>
+			<a class="btn btn-default" style = "text-decoration:none; color:black;" href="/ScoolLife-GitHub/index.php?logout=273">Logout</a>
+			<?php } ?>
 			</div>
 		</div>
 		<div class="down-navbar">

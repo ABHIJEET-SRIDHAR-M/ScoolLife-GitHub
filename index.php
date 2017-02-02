@@ -1,3 +1,12 @@
+<?php
+include 'common_files/core_inc.php';
+if(!empty($_GET['logout'])){
+	session_destroy();
+	header('Location: index.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
