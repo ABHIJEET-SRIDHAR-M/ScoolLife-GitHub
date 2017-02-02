@@ -33,7 +33,7 @@ if (!isset($_SESSION['cart'])) {
 	
 <!Custom style sheet>
 <link rel="stylesheet" type="text/css" href="css/styles_eshop.css">
-<link rel="stylesheet" type="text/css" href="css/header_styles.css">
+<link rel="stylesheet" type="text/css" href="../css/header_styles.css">
 <link rel="stylesheet" type="text/css" href="../css/footer_styles.css">
 
 <!Alert Plugin links>
@@ -52,6 +52,11 @@ if (!isset($_SESSION['cart'])) {
 	-moz-transform: scale(1.04);
 	-ms-transform: scale(1.04);
 	-o-transform: scale(1.04);
+}
+.header .rightblock{
+	float:right;
+	padding-right:30px;
+	padding-top:10px;
 }
 </style>
 	

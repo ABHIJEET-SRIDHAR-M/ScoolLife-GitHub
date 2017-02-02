@@ -29,7 +29,17 @@
 		<div class="rightblock">						
 		<?php 
 			if(isset($_SESSION['user_id'])){
-			echo '<span>Welcome '.$_SESSION['parentName'].'</span>';
+		?>
+		<div class="btn-group separator">
+		<button data-toggle="dropdown" class="btn dropdown-toggle" style = "padding-left:20px;padding-right:20px;"><span class="fa fa-user-o" style = "color:blue;margin-right:8px"></span><?php echo $_SESSION['parentName']?> <span class="caret"></span></button>
+		<ul class="dropdown-menu">
+			<li><a href="#">Profile</a></li>
+			<li><a href="#">My Orders</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Student Role </a></li>
+		</ul>
+		</div>
+		<?php
 			} else {
 		?>
 			<form class="navbar-form separator" action = "<?php echo $current_file;?>" method = "POST">
@@ -39,8 +49,6 @@
 			</form>
 		<?php 
 			}
-			
-			
 		?>
 			<div class="btn-group separator">
 					<button type="button" class="btn btn-warning"><a href="https://www.facebook.com/pages/Send-Fresh-Flowers/1460169447635086" target = "_blank"> <i class=" fa fa-facebook">   </i> </a></button>
