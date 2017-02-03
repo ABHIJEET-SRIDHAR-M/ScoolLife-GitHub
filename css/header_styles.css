@@ -76,3 +76,16 @@ top:120px;
 .header .down-navbar li:before { 
    content: "\25BA \0020";
 }
+
+@media screen and (max-width: 1500px) {
+  /* CSS that should be displayed if width is equal to or less than 900px goes here */
+  .header .rightblock .head_social{
+		display:none;
+  }
+}
+@media screen and (min-width: 1500px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .header .rightblock .head_social{
+		visibility:visible;
+  }
+}
