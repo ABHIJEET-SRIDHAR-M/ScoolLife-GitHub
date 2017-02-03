@@ -5,9 +5,61 @@
 	!background-color: #f9f6ef;
 	background-color: rgba(242, 222, 222, 0.5);
 }
-.schoolzone_header>h4{
+.quick-search-head{
 	text-align:center;
-	color: #353571;
+	font-weight: 900;
+
+	color: #FF6600;
 	padding: 7px;
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-family: "Times New Roman", Times, serif;
+	font-size:40px;
+}
+
+.quick-search{
+	margin-top:40px;
+	height:150px;
+	width:100%;
+	background-color:#EFEFEF;
+}
+
+
+.location-search{
+	
+	margin-left:30px;
+	display:inline;
+	
+	
+}
+
+.location-search > input{
+	
+	width: 250px;
+	height:40px;
+
+    background-image: url("../images/searchicon.png");
+    background-position: 0px; 
+	background-size: 30px 30px;
+    background-repeat: no-repeat;
+	
+    padding-left: 40px;
+	border: 2px solid #dadada;
+    border-radius: 7px;
+	
+	
+}
+.location-search > input:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.location-search > input::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+
+.syllabus-search{
+	color:red;
+	margin-top:10px;
+	display:inline;
 }
