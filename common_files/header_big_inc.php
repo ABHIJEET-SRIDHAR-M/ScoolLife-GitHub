@@ -31,7 +31,7 @@
 			if(isset($_SESSION['user_id'])){
 		?>
 		<div class="btn-group separator">
-		<button data-toggle="dropdown" class="btn dropdown-toggle" style = "color:brown;padding-left:20px;padding-right:20px;">
+		<button data-toggle="dropdown" class="btn btn-default dropdown-toggle" style = "color:brown;padding-left:20px;padding-right:20px;">
 		<span class="fa fa-user-o" style = "color:brown;margin-right:8px"></span>
 		<?php echo 'Hi '.$_SESSION['parentName']?> <span class="caret" style = "margin-left:8px"></span></button>
 		<ul class="dropdown-menu" style = "margin-left:10px;width:90%">
